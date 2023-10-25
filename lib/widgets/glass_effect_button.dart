@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:flutter_glasseffect_button/constants/colors_constants.dart';
 
 class GlassEffectButton extends StatelessWidget {
   final String text;
@@ -27,11 +28,11 @@ class GlassEffectButton extends StatelessWidget {
               onTap: () {},
               child: Container(
                 decoration: BoxDecoration(
-                    border: Border.all(color: Colors.white.withOpacity(0.13)),
+                    border: Border.all(color: whiteteam3),
                     borderRadius: BorderRadius.circular(30),
                     gradient: LinearGradient(colors: [
-                      Colors.white.withOpacity(0.15),
-                      Colors.white.withOpacity(0.5)
+                      whiteteam2,
+                      whiteteam1
                     ])),
                 child: Center(
                     child: Text(

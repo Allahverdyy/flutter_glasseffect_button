@@ -8,20 +8,6 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return 
-    
-    // Container(
-    //   decoration: const BoxDecoration(
-    //     gradient: LinearGradient(
-    //       begin: Alignment.topCenter,
-    //       end: Alignment.bottomCenter,
-    //       colors: [
-    //         Colors.blueAccent,
-    //         Colors.white
-    //       ]
-    //     )
-    //   ),
-    //   child: const 
-      
       Scaffold(
         body: Container(
           decoration: const BoxDecoration(
@@ -48,6 +34,5 @@ class HomeView extends StatelessWidget {
           ),
         ),
       );
-    // );
   }
 }
